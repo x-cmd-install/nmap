@@ -1,0 +1,83 @@
+about:
+  description: Nmap - the Network Mapper. Github mirror of official SVN repository.
+  license: NOASSERTION
+  homepage: https://svn.nmap.org/
+  head: b7b3bac
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-03T03:34:52Z
+timeline:
+  created: 2012-03-09
+  lastCommit: 2026-09-02
+  lastRelease: ?
+popularity:
+  star: 13510
+  watcher: 456
+  fork: 2893
+  release: 0
+  contributor: 12
+  pullRequest: 1061
+  issue: 2033
+language:
+  C: 11053145
+  Lua: 8131358
+  C++: 6283005
+  Shell: 1679315
+  Python: 1207794
+  Makefile: 567037
+  CMake: 452768
+  Roff: 323512
+  M4: 305732
+  Perl: 105665
+  RPGLE: 100508
+  Ada: 89098
+  HTML: 68924
+  DIGITAL Command Language: 66176
+  C#: 55632
+  Pascal: 42411
+  NSIS: 29965
+  Assembly: 26797
+  Clean: 22715
+  Lex: 18265
+  Starlark: 10251
+  Batchfile: 7949
+  Zig: 6064
+  Java: 2420
+  Emacs Lisp: 2140
+  Objective-C: 1913
+  SAS: 1847
+  Awk: 849
+totalLine: 30663255
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 0
+    mergedPR: 0
+    openPR: 13
+    closedIssue: 17
+    openIssue: 3
+    commit: 73
+  last90d:
+    since: 2026-06-05
+    release: 0
+    mergedPR: 0
+    openPR: 29
+    closedIssue: 32
+    openIssue: 5
+    commit: 210
+  last180d:
+    since: 2026-03-07
+    release: 0
+    mergedPR: 0
+    openPR: 49
+    closedIssue: 52
+    openIssue: 13
+    commit: 340
+  last360d:
+    since: 2025-09-08
+    release: 0
+    mergedPR: 0
+    openPR: 66
+    closedIssue: 109
+    openIssue: 37
+    commit: 377
