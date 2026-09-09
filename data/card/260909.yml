@@ -434,3 +434,4 @@ checks:
       - 'Info:   0 out of   5 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of   5 downloadThenRun dependencies pinned'
       - 'Info:   0 out of   3 pipCommand dependencies pinned'
+---
