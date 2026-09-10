@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:47:43Z
+  collectedAt: 2026-09-10T22:06:00Z
 timeline:
   created: 2012-03-09
   lastCommit: 2026-09-06
@@ -110,7 +110,7 @@ total:
   commit: 13764
 ---
 path: /home/runner/.x-repo/github.com/nmap/nmap
-collectedAt: 2026-09-10T21:48:15Z
+collectedAt: 2026-09-10T22:06:26Z
 loc:
   C:
     code: 175070
