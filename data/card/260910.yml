@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T18:20:51Z
+  collectedAt: 2026-09-10T21:47:43Z
 timeline:
   created: 2012-03-09
   lastCommit: 2026-09-06
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 13556
+  star: 13555
   watcher: 457
   fork: 2901
   release: 0
@@ -110,7 +110,7 @@ total:
   commit: 13764
 ---
 path: /home/runner/.x-repo/github.com/nmap/nmap
-collectedAt: 2026-09-10T18:21:17Z
+collectedAt: 2026-09-10T21:48:15Z
 loc:
   C:
     code: 175070
