@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:02:10Z
+  collectedAt: 2026-09-11T18:47:37Z
 timeline:
   created: 2012-03-09
   lastCommit: 2026-09-11
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 13556
-  watcher: 457
-  fork: 2903
+  star: 13562
+  watcher: 458
+  fork: 2904
   release: 0
   contributor: 9
-  pullRequest: 1066
-  issue: 2046
+  pullRequest: 1069
+  issue: 2048
 language:
   C: 11053460
   Lua: 8137558
@@ -57,60 +57,60 @@ recent:
     since: 2026-08-12
     release: 0
     mergedPR: 0
-    openPR: 14
-    closedIssue: 23
+    openPR: 17
+    closedIssue: 25
     openIssue: 7
     commit: 58
   last60d:
     since: 2026-07-13
     release: 0
     mergedPR: 0
-    openPR: 26
-    closedIssue: 32
+    openPR: 29
+    closedIssue: 34
     openIssue: 8
     commit: 133
   last90d:
     since: 2026-06-13
     release: 0
     mergedPR: 0
-    openPR: 31
-    closedIssue: 41
+    openPR: 34
+    closedIssue: 43
     openIssue: 9
     commit: 193
   last180d:
     since: 2026-03-15
     release: 0
     mergedPR: 0
-    openPR: 51
-    closedIssue: 59
+    openPR: 54
+    closedIssue: 61
     openIssue: 15
     commit: 330
   last360d:
     since: 2025-09-16
     release: 0
     mergedPR: 0
-    openPR: 69
-    closedIssue: 116
+    openPR: 72
+    closedIssue: 118
     openIssue: 41
     commit: 380
   last720d:
     since: 2024-09-21
     release: 0
     mergedPR: 0
-    openPR: 102
-    closedIssue: 234
+    openPR: 105
+    closedIssue: 236
     openIssue: 89
     commit: 718
 total:
   release: 0
   mergedPR: 1
-  openPR: 324
-  closedIssue: 1686
+  openPR: 327
+  closedIssue: 1688
   openIssue: 360
   commit: 13765
 ---
 path: /home/runner/.x-repo/github.com/nmap/nmap
-collectedAt: 2026-09-11T06:02:46Z
+collectedAt: 2026-09-11T18:48:07Z
 loc:
   C:
     code: 175079
