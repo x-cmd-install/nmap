@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,562 · **Forks**: 2,904 · **Open issues**: 2,048 · **Contributors**: 9
+- **Stars**: 13,568 · **Forks**: 2,904 · **Open issues**: 2,048 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 327 · **Closed issues**: 1688 · **Open issues**: 360 · **Commits**: 13765
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 327 · **Closed issues**: 1688 · **Open issues**: 360 · **Commits**: 13766
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 0 | 17 | 25 | 7 | 58 |
-| last60d | 2026-07-13 | 0 | 0 | 29 | 34 | 8 | 133 |
-| 90d | 2026-06-13 | 0 | 0 | 34 | 43 | 9 | 193 |
-| last180d | 2026-03-15 | 0 | 0 | 54 | 61 | 15 | 330 |
-| 360d | 2025-09-16 | 0 | 0 | 72 | 118 | 41 | 380 |
-| last720d | 2024-09-21 | 0 | 0 | 105 | 236 | 89 | 718 |
+| 30d | 2026-08-13 | 0 | 0 | 17 | 25 | 7 | 58 |
+| last60d | 2026-07-14 | 0 | 0 | 28 | 33 | 7 | 133 |
+| 90d | 2026-06-14 | 0 | 0 | 34 | 43 | 9 | 193 |
+| last180d | 2026-03-16 | 0 | 0 | 54 | 61 | 14 | 330 |
+| 360d | 2025-09-17 | 0 | 0 | 72 | 118 | 41 | 380 |
+| last720d | 2024-09-22 | 0 | 0 | 105 | 236 | 89 | 719 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T18:48:15Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T05:48:15Z._
