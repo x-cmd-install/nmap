@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,574 · **Forks**: 2,904 · **Open issues**: 2,050 · **Contributors**: 9
+- **Stars**: 13,583 · **Forks**: 2,903 · **Open issues**: 2,050 · **Contributors**: 9
 
 ## Totals (cumulative)
 
@@ -52,31 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 16 | 25 | 9 | 30 |
-| last60d | 2026-07-15 | 0 | 0 | 27 | 32 | 9 | 105 |
-| 90d | 2026-06-15 | 0 | 0 | 34 | 43 | 11 | 169 |
-| last180d | 2026-03-17 | 0 | 0 | 54 | 61 | 16 | 323 |
-| 360d | 2025-09-18 | 0 | 0 | 72 | 118 | 43 | 380 |
-| last720d | 2024-09-23 | 0 | 0 | 105 | 236 | 90 | 719 |
-
-## Distribution status
-
-Reported by **348** distros on [repology.org](https://repology.org/project/nmap). **51** are ✅ on the latest upstream release, **229** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `7.99` | ⚠️ outdated |
-| Debian 14 | `7.99` | ⚠️ outdated |
-| Debian 13 | `7.95` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `7.98` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `7.94+git20230807.3be01efb1` | ⚠️ outdated |
-| Arch | `7.991` | ✅ latest |
-| Homebrew | `7.991` | ✅ latest |
-| Fedora rawhide | `7.92` | ⚠️ outdated |
-| Nix unstable | `7.991` | ✅ latest |
-| Void | `7.99` | ⚠️ outdated |
-| Alpine edge | `7.99` | ⚠️ outdated |
-| openSUSE Tumbleweed | `7.95` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 15 | 25 | 9 | 30 |
+| last60d | 2026-07-16 | 0 | 0 | 27 | 32 | 9 | 105 |
+| 90d | 2026-06-16 | 0 | 0 | 34 | 42 | 11 | 169 |
+| last180d | 2026-03-18 | 0 | 0 | 54 | 61 | 16 | 323 |
+| 360d | 2025-09-19 | 0 | 0 | 72 | 117 | 43 | 380 |
+| last720d | 2024-09-24 | 0 | 0 | 105 | 236 | 90 | 719 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:09:25Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:20:18Z._
