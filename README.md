@@ -14,14 +14,14 @@ x install nmap
 
 ## Code insight
 
-Total: **615,453** lines of code across **1021** files in the top 5 languages.
+Total: **615,408** lines of code across **1021** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 175,079 | 53,175 | 32,870 | 327 |
-| Lua | 88,655 | 27,888 | 13,399 | 159 |
+| C | 175,081 | 53,175 | 32,870 | 327 |
+| Lua | 88,599 | 27,862 | 13,399 | 159 |
 | Xml | 68,716 | 268 | 5,115 | 73 |
-| Cpp | 60,644 | 15,800 | 10,836 | 110 |
+| Cpp | 60,653 | 15,800 | 10,837 | 110 |
 | CHeader | 46,408 | 25,680 | 8,851 | 352 |
 
 ## OpenSSF Scorecard
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,583 · **Forks**: 2,903 · **Open issues**: 2,050 · **Contributors**: 9
+- **Stars**: 13,589 · **Forks**: 2,905 · **Open issues**: 2,052 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 327 · **Closed issues**: 1688 · **Open issues**: 362 · **Commits**: 13766
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 328 · **Closed issues**: 1688 · **Open issues**: 364 · **Commits**: 13778
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 15 | 25 | 9 | 30 |
-| last60d | 2026-07-16 | 0 | 0 | 27 | 32 | 9 | 105 |
-| 90d | 2026-06-16 | 0 | 0 | 34 | 42 | 11 | 169 |
-| last180d | 2026-03-18 | 0 | 0 | 54 | 61 | 16 | 323 |
-| 360d | 2025-09-19 | 0 | 0 | 72 | 117 | 43 | 380 |
-| last720d | 2024-09-24 | 0 | 0 | 105 | 236 | 90 | 719 |
+| 30d | 2026-08-16 | 0 | 0 | 16 | 24 | 11 | 42 |
+| last60d | 2026-07-17 | 0 | 0 | 28 | 32 | 11 | 117 |
+| 90d | 2026-06-17 | 0 | 0 | 34 | 41 | 13 | 181 |
+| last180d | 2026-03-19 | 0 | 0 | 55 | 60 | 18 | 335 |
+| 360d | 2025-09-20 | 0 | 0 | 73 | 117 | 45 | 392 |
+| last720d | 2024-09-25 | 0 | 0 | 106 | 235 | 92 | 731 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T06:20:18Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T06:28:32Z._
