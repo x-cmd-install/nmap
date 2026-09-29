@@ -14,11 +14,11 @@ x install nmap
 
 ## Code insight
 
-Total: **616,122** lines of code across **1019** files in the top 5 languages.
+Total: **616,124** lines of code across **1019** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 175,267 | 53,312 | 32,889 | 326 |
+| C | 175,269 | 53,312 | 32,889 | 326 |
 | Lua | 88,602 | 27,863 | 13,393 | 159 |
 | Xml | 68,716 | 268 | 5,115 | 73 |
 | Cpp | 60,658 | 15,800 | 10,837 | 110 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,681 · **Forks**: 2,909 · **Open issues**: 2,063 · **Contributors**: 9
+- **Stars**: 13,687 · **Forks**: 2,909 · **Open issues**: 2,062 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 339 · **Closed issues**: 1702 · **Open issues**: 361 · **Commits**: 13821
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 339 · **Closed issues**: 1701 · **Open issues**: 361 · **Commits**: 13822
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 0 | 21 | 26 | 7 | 52 |
-| last60d | 2026-07-30 | 0 | 0 | 34 | 42 | 8 | 131 |
-| 90d | 2026-06-30 | 0 | 0 | 43 | 51 | 10 | 194 |
-| last180d | 2026-04-01 | 0 | 0 | 62 | 66 | 13 | 358 |
-| 360d | 2025-10-03 | 0 | 0 | 84 | 129 | 42 | 429 |
-| last720d | 2024-10-08 | 0 | 0 | 117 | 248 | 88 | 763 |
+| 30d | 2026-08-30 | 0 | 0 | 21 | 26 | 7 | 53 |
+| last60d | 2026-07-31 | 0 | 0 | 34 | 42 | 8 | 132 |
+| 90d | 2026-07-01 | 0 | 0 | 43 | 51 | 10 | 195 |
+| last180d | 2026-04-02 | 0 | 0 | 62 | 66 | 13 | 359 |
+| 360d | 2025-10-04 | 0 | 0 | 84 | 129 | 42 | 430 |
+| last720d | 2024-10-09 | 0 | 0 | 116 | 247 | 88 | 758 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:35:22Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:50:16Z._
