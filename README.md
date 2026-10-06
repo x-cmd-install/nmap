@@ -14,12 +14,12 @@ x install nmap
 
 ## Code insight
 
-Total: **616,948** lines of code across **1019** files in the top 5 languages.
+Total: **616,953** lines of code across **1019** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 175,269 | 53,312 | 32,889 | 326 |
-| Lua | 89,411 | 28,242 | 13,500 | 159 |
+| Lua | 89,412 | 28,242 | 13,491 | 159 |
 | Xml | 68,716 | 268 | 5,115 | 73 |
 | Cpp | 60,670 | 15,815 | 10,839 | 110 |
 | CHeader | 46,736 | 25,507 | 8,772 | 351 |
@@ -31,8 +31,8 @@ Overall score: **4.2 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,712 · **Forks**: 2,911 · **Open issues**: 2,068 · **Contributors**: 9
+- **Stars**: 13,714 · **Forks**: 2,911 · **Open issues**: 2,068 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 337 · **Closed issues**: 1707 · **Open issues**: 361 · **Commits**: 13831
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 339 · **Closed issues**: 1708 · **Open issues**: 360 · **Commits**: 13833
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 19 | 27 | 3 | 57 |
-| last60d | 2026-08-06 | 0 | 0 | 32 | 46 | 8 | 118 |
-| 90d | 2026-07-07 | 0 | 0 | 41 | 56 | 10 | 192 |
-| last180d | 2026-04-08 | 0 | 0 | 60 | 72 | 12 | 357 |
-| 360d | 2025-10-10 | 0 | 0 | 81 | 131 | 41 | 436 |
-| last720d | 2024-10-15 | 0 | 0 | 112 | 253 | 87 | 762 |
+| 30d | 2026-09-06 | 0 | 0 | 20 | 25 | 3 | 59 |
+| last60d | 2026-08-07 | 0 | 0 | 34 | 46 | 8 | 120 |
+| 90d | 2026-07-08 | 0 | 0 | 43 | 56 | 10 | 194 |
+| last180d | 2026-04-09 | 0 | 0 | 62 | 72 | 12 | 359 |
+| 360d | 2025-10-11 | 0 | 0 | 83 | 130 | 40 | 438 |
+| last720d | 2024-10-16 | 0 | 0 | 114 | 254 | 85 | 763 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:48:36Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:32:18Z._
