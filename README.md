@@ -14,12 +14,12 @@ x install nmap
 
 ## Code insight
 
-Total: **616,977** lines of code across **1019** files in the top 5 languages.
+Total: **616,986** lines of code across **1019** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 175,269 | 53,312 | 32,889 | 326 |
-| Lua | 89,420 | 28,243 | 13,491 | 159 |
+| Lua | 89,429 | 28,245 | 13,480 | 159 |
 | Xml | 68,716 | 268 | 5,115 | 73 |
 | Cpp | 60,686 | 15,820 | 10,841 | 110 |
 | CHeader | 46,736 | 25,507 | 8,772 | 351 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,741 · **Forks**: 2,915 · **Open issues**: 2,074 · **Contributors**: 9
+- **Stars**: 13,743 · **Forks**: 2,918 · **Open issues**: 2,074 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 340 · **Closed issues**: 1713 · **Open issues**: 361 · **Commits**: 13841
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 344 · **Closed issues**: 1715 · **Open issues**: 359 · **Commits**: 13847
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 0 | 17 | 22 | 4 | 39 |
-| last60d | 2026-08-12 | 0 | 0 | 33 | 48 | 10 | 101 |
-| 90d | 2026-07-13 | 0 | 0 | 45 | 57 | 11 | 176 |
-| last180d | 2026-04-14 | 0 | 0 | 63 | 75 | 13 | 348 |
-| 360d | 2025-10-16 | 0 | 0 | 84 | 133 | 38 | 444 |
-| last720d | 2024-10-21 | 0 | 0 | 115 | 258 | 85 | 771 |
+| 30d | 2026-09-12 | 0 | 0 | 21 | 23 | 2 | 39 |
+| last60d | 2026-08-13 | 0 | 0 | 37 | 50 | 8 | 101 |
+| 90d | 2026-07-14 | 0 | 0 | 48 | 58 | 8 | 176 |
+| last180d | 2026-04-15 | 0 | 0 | 67 | 77 | 11 | 348 |
+| 360d | 2025-10-17 | 0 | 0 | 88 | 134 | 36 | 444 |
+| last720d | 2024-10-22 | 0 | 0 | 119 | 259 | 83 | 777 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:56:07Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T07:08:15Z._
