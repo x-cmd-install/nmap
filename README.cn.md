@@ -30,9 +30,9 @@ x install nmap
 
 评分最低的几项:
 
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -42,22 +42,22 @@ x install nmap
 
 ## 流行度
 
-- **Star**: 13,755 · **Fork**: 2,929 · **开放 issue**: 2,079 · **贡献者**: 9
+- **Star**: 13,759 · **Fork**: 2,930 · **开放 issue**: 2,081 · **贡献者**: 9
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 1 · **开放 PR**: 344 · **已关闭 issue**: 1720 · **开放 issue**: 359 · **提交数**: 13848
+- **发布数**: 0 · **已合并 PR**: 1 · **开放 PR**: 345 · **已关闭 issue**: 1722 · **开放 issue**: 359 · **提交数**: 13848
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 0 | 21 | 26 | 2 | 39 |
-| last60d | 2026-08-15 | 0 | 0 | 34 | 55 | 8 | 101 |
-| 90d | 2026-07-16 | 0 | 0 | 46 | 62 | 8 | 176 |
-| last180d | 2026-04-17 | 0 | 0 | 66 | 81 | 11 | 348 |
-| 360d | 2025-10-19 | 0 | 0 | 88 | 138 | 36 | 444 |
-| last720d | 2024-10-24 | 0 | 0 | 119 | 264 | 83 | 778 |
+| 30d | 2026-09-15 | 0 | 0 | 22 | 27 | 2 | 39 |
+| last60d | 2026-08-16 | 0 | 0 | 35 | 56 | 8 | 101 |
+| 90d | 2026-07-17 | 0 | 0 | 47 | 64 | 8 | 176 |
+| last180d | 2026-04-18 | 0 | 0 | 67 | 83 | 11 | 348 |
+| 360d | 2025-10-20 | 0 | 0 | 89 | 140 | 36 | 444 |
+| last720d | 2024-10-25 | 0 | 0 | 120 | 265 | 83 | 778 |
 
 ## 改进这些数据
 
@@ -68,4 +68,4 @@ nmap 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T05:55:49Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T05:57:07Z._
