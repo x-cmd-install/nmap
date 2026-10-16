@@ -14,7 +14,7 @@ x install nmap
 
 ## Code insight
 
-Total: **616,986** lines of code across **1019** files in the top 5 languages.
+Total: **616,988** lines of code across **1019** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,759 · **Forks**: 2,930 · **Open issues**: 2,081 · **Contributors**: 9
+- **Stars**: 13,780 · **Forks**: 2,933 · **Open issues**: 2,081 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 345 · **Closed issues**: 1722 · **Open issues**: 359 · **Commits**: 13848
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 349 · **Closed issues**: 1724 · **Open issues**: 357 · **Commits**: 13850
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 0 | 22 | 27 | 2 | 39 |
-| last60d | 2026-08-16 | 0 | 0 | 35 | 56 | 8 | 101 |
-| 90d | 2026-07-17 | 0 | 0 | 47 | 64 | 8 | 176 |
-| last180d | 2026-04-18 | 0 | 0 | 67 | 83 | 11 | 348 |
-| 360d | 2025-10-20 | 0 | 0 | 89 | 140 | 36 | 444 |
-| last720d | 2024-10-25 | 0 | 0 | 120 | 265 | 83 | 778 |
+| 30d | 2026-09-16 | 0 | 0 | 25 | 28 | 1 | 41 |
+| last60d | 2026-08-17 | 0 | 0 | 39 | 58 | 6 | 103 |
+| 90d | 2026-07-18 | 0 | 0 | 51 | 66 | 6 | 178 |
+| last180d | 2026-04-19 | 0 | 0 | 71 | 85 | 9 | 350 |
+| 360d | 2025-10-21 | 0 | 0 | 93 | 142 | 34 | 446 |
+| last720d | 2024-10-26 | 0 | 0 | 124 | 267 | 81 | 780 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T05:57:06Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T05:36:08Z._
