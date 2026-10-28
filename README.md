@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,888 · **Forks**: 2,953 · **Open issues**: 2,098 · **Contributors**: 9
+- **Stars**: 13,894 · **Forks**: 2,955 · **Open issues**: 2,098 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 356 · **Closed issues**: 1736 · **Open issues**: 362 · **Commits**: 13859
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 357 · **Closed issues**: 1736 · **Open issues**: 362 · **Commits**: 13859
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 21 | 27 | 8 | 19 |
-| last60d | 2026-08-28 | 0 | 0 | 40 | 58 | 12 | 85 |
-| 90d | 2026-07-29 | 0 | 0 | 52 | 73 | 12 | 157 |
-| last180d | 2026-04-30 | 0 | 0 | 76 | 92 | 14 | 337 |
-| 360d | 2025-11-01 | 0 | 0 | 100 | 150 | 38 | 452 |
-| last720d | 2024-11-06 | 0 | 0 | 130 | 277 | 85 | 780 |
+| 30d | 2026-09-28 | 0 | 0 | 22 | 27 | 8 | 19 |
+| last60d | 2026-08-29 | 0 | 0 | 41 | 56 | 12 | 85 |
+| 90d | 2026-07-30 | 0 | 0 | 53 | 73 | 12 | 157 |
+| last180d | 2026-05-01 | 0 | 0 | 77 | 92 | 14 | 337 |
+| 360d | 2025-11-02 | 0 | 0 | 101 | 150 | 37 | 452 |
+| last720d | 2024-11-07 | 0 | 0 | 131 | 277 | 85 | 775 |
 
 ## Distribution status
 
-Reported by **341** distros on [repology.org](https://repology.org/project/nmap). **3** are ✅ on the latest upstream release, **269** are ⚠️ on an older version.
+Reported by **344** distros on [repology.org](https://repology.org/project/nmap). **15** are ✅ on the latest upstream release, **261** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T06:24:17Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:47:50Z._
