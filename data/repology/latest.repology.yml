@@ -1,50 +1,37 @@
-- repo: slackware64_current
-  subrepo: slackware64
+- repo: baulk
+  srcname: nmap
   binname: nmap
   visiblename: nmap
   version: "7.993"
   origversion: null
   status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: nmap
-  visiblename: nmap
-  version: "7.993"
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: crux_38
-  subrepo: contrib
+  summary: Network exploration and security auditing utility.
+- repo: homebrew
   srcname: nmap
   visiblename: nmap
   version: "7.993"
   origversion: null
   status: newest
-  summary: Utility for network exploration or security auditing
-  maintainers:
-    - tbier@posteo.de
-- repo: aix_osp
+  summary: Port scanning utility for large networks
+- repo: homebrew
   srcname: nmap
   visiblename: nmap
-  version: "3.81"
-  origversion: 3.81-1
-  status: legacy
-  vulnerable: true
-- repo: aur
-  srcname: zenmap-git
-  binname: nmap-git
-  visiblename: nmap-git
-  version: 7.99.r181.gb47e7f0
-  origversion: 7.99.r181.gb47e7f0-1
+  version: HEAD
+  origversion: null
   status: rolling
+  summary: Port scanning utility for large networks
+- repo: aosc
+  srcname: app-network/nmap
+  binname: nmap
+  visiblename: nmap
+  version: "7.991"
+  origversion: null
+  status: outdated
   summary: Utility for network discovery and security auditing
   maintainers:
-    - xiota@aur
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
 - repo: alpine_edge
   subrepo: main
   srcname: nmap
@@ -123,82 +110,82 @@
     - rnalrd@alpinelinux.org
   licenses:
     - custom
-- repo: aosc
-  srcname: app-network/nmap
+- repo: arch
+  subrepo: extra
+  srcname: nmap
+  binname: ndiff
+  visiblename: ndiff
+  version: "7.992"
+  origversion: 7.992-1
+  status: outdated
+  summary: Compare two Nmap XML files and display a list of their differences
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: arch
+  subrepo: extra
+  srcname: nmap
   binname: nmap
   visiblename: nmap
-  version: "7.991"
-  origversion: null
+  version: "7.992"
+  origversion: 7.992-1
   status: outdated
+  summary: Utility for network discovery and security auditing
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: arch
+  subrepo: extra
+  srcname: nmap
+  binname: zenmap
+  visiblename: zenmap
+  version: "7.992"
+  origversion: 7.992-1
+  status: outdated
+  summary: Utility for network discovery and security auditing (GUI)
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: nmap
+  binname: zenmap
+  visiblename: zenmap
+  version: "7.993"
+  origversion: 7.993-1
+  status: newest
+  summary: Utility for network discovery and security auditing (GUI)
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: nmap
+  binname: nmap
+  visiblename: nmap
+  version: "7.993"
+  origversion: 7.993-1
+  status: newest
+  summary: Utility for network discovery and security auditing
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: nmap
+  binname: ndiff
+  visiblename: ndiff
+  version: "7.993"
+  origversion: 7.993-1
+  status: newest
+  summary: Compare two Nmap XML files and display a list of their differences
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: aur
+  srcname: zenmap-git
+  binname: nmap-git
+  visiblename: nmap-git
+  version: 7.99.r181.gb47e7f0
+  origversion: 7.99.r181.gb47e7f0-1
+  status: rolling
   summary: Utility for network discovery and security auditing
   maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - net
-- repo: arch
-  subrepo: extra
-  srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "7.992"
-  origversion: 7.992-1
-  status: outdated
-  summary: Utility for network discovery and security auditing
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: arch
-  subrepo: extra
-  srcname: nmap
-  binname: zenmap
-  visiblename: zenmap
-  version: "7.992"
-  origversion: 7.992-1
-  status: outdated
-  summary: Utility for network discovery and security auditing (GUI)
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: arch
-  subrepo: extra
-  srcname: nmap
-  binname: ndiff
-  visiblename: ndiff
-  version: "7.992"
-  origversion: 7.992-1
-  status: outdated
-  summary: Compare two Nmap XML files and display a list of their differences
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: nmap
-  binname: ndiff
-  visiblename: ndiff
-  version: "7.993"
-  origversion: 7.993-1
-  status: newest
-  summary: Compare two Nmap XML files and display a list of their differences
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: nmap
-  binname: zenmap
-  visiblename: zenmap
-  version: "7.993"
-  origversion: 7.993-1
-  status: newest
-  summary: Utility for network discovery and security auditing (GUI)
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "7.993"
-  origversion: 7.993-1
-  status: newest
-  summary: Utility for network discovery and security auditing
+    - xiota@aur
   licenses:
     - LicenseRef-Nmap-Public-Source-License-Version-0.95
 - repo: aur
@@ -228,12 +215,12 @@
 - repo: artix
   subrepo: world
   srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "7.991"
-  origversion: 7.991-1
+  binname: zenmap
+  visiblename: zenmap
+  version: "7.992"
+  origversion: 7.992-1
   status: outdated
-  summary: Utility for network discovery and security auditing
+  summary: Utility for network discovery and security auditing (GUI)
   licenses:
     - LicenseRef-Nmap-Public-Source-License-Version-0.95
 - repo: artix
@@ -241,8 +228,8 @@
   srcname: nmap
   binname: ndiff
   visiblename: ndiff
-  version: "7.991"
-  origversion: 7.991-1
+  version: "7.992"
+  origversion: 7.992-1
   status: outdated
   summary: Compare two Nmap XML files and display a list of their differences
   licenses:
@@ -250,22 +237,14 @@
 - repo: artix
   subrepo: world
   srcname: nmap
-  binname: zenmap
-  visiblename: zenmap
-  version: "7.991"
-  origversion: 7.991-1
-  status: outdated
-  summary: Utility for network discovery and security auditing (GUI)
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: baulk
-  srcname: nmap
   binname: nmap
   visiblename: nmap
   version: "7.992"
-  origversion: null
+  origversion: 7.992-1
   status: outdated
-  summary: Network exploration and security auditing utility.
+  summary: Utility for network discovery and security auditing
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
 - repo: chimera
   subrepo: user
   srcname: nmap
@@ -325,6 +304,16 @@
   summary: Utility for network discovery and security auditing
   licenses:
     - GPL2
+- repo: crux_38
+  subrepo: contrib
+  srcname: nmap
+  visiblename: nmap
+  version: "7.993"
+  origversion: null
+  status: newest
+  summary: Utility for network exploration or security auditing
+  maintainers:
+    - tbier@posteo.de
 - repo: debian_unstable
   subrepo: sid/main
   srcname: nmap
@@ -423,20 +412,6 @@
   origversion: null
   status: outdated
   summary: Network discovery and security auditing tool
-- repo: homebrew
-  srcname: nmap
-  visiblename: nmap
-  version: "7.993"
-  origversion: null
-  status: newest
-  summary: Port scanning utility for large networks
-- repo: homebrew
-  srcname: nmap
-  visiblename: nmap
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Port scanning utility for large networks
 - repo: homebrew_casks
   srcname: zenmap
   visiblename: Zenmap
@@ -547,117 +522,114 @@
     - Restrictive/Distributable
   categories:
     - net
-- repo: manjaro_stable
-  subrepo: extra
+- repo: hpux_11_31
+  subrepo: hppa_32
   srcname: nmap
   binname: nmap
   visiblename: nmap
-  version: "7.991"
-  origversion: 7.991-1
-  status: outdated
-  summary: Utility for network discovery and security auditing
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nmap
-  binname: zenmap
-  visiblename: zenmap
-  version: "7.991"
-  origversion: 7.991-1
-  status: outdated
-  summary: Utility for network discovery and security auditing (GUI)
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nmap
-  binname: ndiff
-  visiblename: ndiff
-  version: "7.991"
-  origversion: 7.991-1
-  status: outdated
-  summary: Compare two Nmap XML files and display a list of their differences
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "7.991"
-  origversion: 7.991-1
-  status: outdated
-  summary: Utility for network discovery and security auditing
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nmap
-  binname: ndiff
-  visiblename: ndiff
-  version: "7.991"
-  origversion: 7.991-1
-  status: outdated
-  summary: Compare two Nmap XML files and display a list of their differences
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nmap
-  binname: zenmap
-  visiblename: zenmap
-  version: "7.991"
-  origversion: 7.991-1
-  status: outdated
-  summary: Utility for network discovery and security auditing (GUI)
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "7.992"
-  origversion: 7.992-1
-  status: outdated
-  summary: Utility for network discovery and security auditing
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nmap
-  binname: ndiff
-  visiblename: ndiff
-  version: "7.992"
-  origversion: 7.992-1
-  status: outdated
-  summary: Compare two Nmap XML files and display a list of their differences
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nmap
-  binname: zenmap
-  visiblename: zenmap
-  version: "7.992"
-  origversion: 7.992-1
-  status: outdated
-  summary: Utility for network discovery and security auditing (GUI)
-  licenses:
-    - LicenseRef-Nmap-Public-Source-License-Version-0.95
-- repo: nix_unstable
-  srcname: zenmap
-  visiblename: zenmap
-  version: "7.991"
+  version: "4.76"
   origversion: null
+  status: legacy
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nmap
+  binname: ndiff
+  visiblename: ndiff
+  version: "7.991"
+  origversion: 7.991-1
   status: outdated
-  summary: Official nmap Security Scanner GUI
-  maintainers:
-    - nixpkgs-maintainer@varum.dk
-    - mymindstorm@evermiss.net
+  summary: Compare two Nmap XML files and display a list of their differences
   licenses:
-    - GPL-2.0-only
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nmap
+  binname: nmap
+  visiblename: nmap
+  version: "7.991"
+  origversion: 7.991-1
+  status: outdated
+  summary: Utility for network discovery and security auditing
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nmap
+  binname: zenmap
+  visiblename: zenmap
+  version: "7.991"
+  origversion: 7.991-1
+  status: outdated
+  summary: Utility for network discovery and security auditing (GUI)
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nmap
+  binname: nmap
+  visiblename: nmap
+  version: "7.991"
+  origversion: 7.991-1
+  status: outdated
+  summary: Utility for network discovery and security auditing
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nmap
+  binname: ndiff
+  visiblename: ndiff
+  version: "7.991"
+  origversion: 7.991-1
+  status: outdated
+  summary: Compare two Nmap XML files and display a list of their differences
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nmap
+  binname: zenmap
+  visiblename: zenmap
+  version: "7.991"
+  origversion: 7.991-1
+  status: outdated
+  summary: Utility for network discovery and security auditing (GUI)
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nmap
+  binname: nmap
+  visiblename: nmap
+  version: "7.992"
+  origversion: 7.992-1
+  status: outdated
+  summary: Utility for network discovery and security auditing
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nmap
+  binname: ndiff
+  visiblename: ndiff
+  version: "7.992"
+  origversion: 7.992-1
+  status: outdated
+  summary: Compare two Nmap XML files and display a list of their differences
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nmap
+  binname: zenmap
+  visiblename: zenmap
+  version: "7.992"
+  origversion: 7.992-1
+  status: outdated
+  summary: Utility for network discovery and security auditing (GUI)
+  licenses:
+    - LicenseRef-Nmap-Public-Source-License-Version-0.95
 - repo: nix_unstable
   srcname: nmap
   visiblename: nmap
@@ -670,6 +642,30 @@
     - fpletz@fnordicwalking.de
   licenses:
     - GPL-2.0-only
+- repo: nix_unstable
+  srcname: zenmap
+  visiblename: zenmap
+  version: "7.991"
+  origversion: null
+  status: outdated
+  summary: Official nmap Security Scanner GUI
+  maintainers:
+    - nixpkgs-maintainer@varum.dk
+    - mymindstorm@evermiss.net
+  licenses:
+    - GPL-2.0-only
+- repo: pkgsrc_2026_3
+  srcname: net/zenmap
+  binname: zenmap
+  visiblename: net/zenmap
+  version: "7.991"
+  origversion: null
+  status: outdated
+  summary: Nmap Security Scanner GUI
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - net
 - repo: openindiana
   subrepo: hipster
   srcname: nmap
@@ -771,30 +767,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
-- repo: pkgsrc_2026_3
-  srcname: net/zenmap
-  binname: zenmap
-  visiblename: net/zenmap
-  version: "7.991"
-  origversion: null
-  status: outdated
-  summary: Nmap Security Scanner GUI
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - net
-- repo: pkgsrc_current
-  srcname: net/zenmap
-  binname: zenmap
-  visiblename: net/zenmap
-  version: "7.992"
-  origversion: null
-  status: outdated
-  summary: Nmap Security Scanner GUI
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - net
 - repo: pkgsrc_current
   srcname: net/ndiff
   binname: ndiff
@@ -819,12 +791,31 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
+- repo: pkgsrc_current
+  srcname: net/zenmap
+  binname: zenmap
+  visiblename: net/zenmap
+  version: "7.992"
+  origversion: null
+  status: outdated
+  summary: Nmap Security Scanner GUI
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - net
 - repo: pld
   srcname: nmap
   visiblename: nmap
   version: "7.991"
   origversion: 7.991-1
   status: outdated
+- repo: ptxdist
+  srcname: nmap
+  visiblename: nmap
+  version: "7.93"
+  origversion: null
+  status: outdated
+  vulnerable: true
 - repo: ravenports
   srcname: nmap
   binname: nmap
@@ -866,6 +857,24 @@
   status: newest
   licenses:
     - GPL-2.0-only
+- repo: slackware_current
+  subrepo: slackware
+  binname: nmap
+  visiblename: nmap
+  version: "7.993"
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: nmap
+  visiblename: nmap
+  version: "7.993"
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: nmap
   binname: ndiff
@@ -976,115 +985,18 @@
   summary: network discovery and security auditing tool
   licenses:
     - GNU General Public License, version 2.0
-- repo: npackd_stable
-  srcname: org.nmap.Zenmap
-  binname: org.nmap.Zenmap
-  visiblename: Zenmap
-  version: "7.94"
-  origversion: null
-  status: legacy
-  licenses:
-    - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "7.98"
-  origversion: null
-  status: outdated
-  licenses:
-    - GPLv2
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.Zenmap
-  binname: org.nmap.Zenmap
-  visiblename: Zenmap
-  version: 6.0.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.Zenmap
-  binname: org.nmap.Zenmap
-  visiblename: Zenmap
-  version: "7.95"
-  origversion: null
-  status: outdated
-  licenses:
-    - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: nmap
-  visiblename: nmap
-  version: "7.92"
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: nmap
-  visiblename: nmap
-  version: "7.92"
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
+- repo: centos_6
+  subrepo: os
   srcname: nmap
-  binnames:
-    - nmap
-    - nmap-ncat
-    - nmap-debuginfo
-    - nmap-debugsource
   visiblename: nmap
-  version: "7.91"
-  origversion: 3:7.91-12.el9
-  status: legacy
+  version: "5.51"
+  origversion: 2:5.51-6.el6
+  status: outdated
   summary: Network exploration tool and security scanner
   licenses:
-    - Nmap
+    - GPLv2 and LGPLv2+ and GPLv2+ and BSD
   categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.Zenmap
-  binname: org.nmap.Zenmap
-  visiblename: Zenmap
-  version: "7.12"
-  origversion: null
-  status: legacy
-  licenses:
-    - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "7.31"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Security
+    - Applications/System
   vulnerable: true
 - repo: npackd_stable
   srcname: org.nmap.Zenmap
@@ -1097,72 +1009,6 @@
     - Nmap OpenSource
   categories:
     - Security
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: nmap
-  binnames:
-    - nmap
-    - nmap-ncat
-    - nmap-debuginfo
-    - nmap-debugsource
-  visiblename: nmap
-  version: "7.91"
-  origversion: 3:7.91-10.el9
-  status: legacy
-  summary: Network exploration tool and security scanner
-  licenses:
-    - Nmap
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: nmap
-  binnames:
-    - nmap
-    - nmap-ncat
-    - nmap-debuginfo
-    - nmap-debugsource
-  visiblename: nmap
-  version: "7.92"
-  origversion: 3:7.92-1.el9
-  status: outdated
-  summary: Network exploration tool and security scanner
-  licenses:
-    - Nmap
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.Zenmap
-  binname: org.nmap.Zenmap
-  visiblename: Zenmap
-  version: "7.91"
-  origversion: null
-  status: legacy
-  licenses:
-    - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: baseos
-  srcname: nmap
-  binnames:
-    - nmap
-    - nmap-ncat
-    - nmap-debuginfo
-    - nmap-debugsource
-  visiblename: nmap
-  version: "7.91"
-  origversion: 3:7.91-10.el9
-  status: legacy
-  summary: Network exploration tool and security scanner
-  licenses:
-    - Nmap
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: npackd_stable
   srcname: org.nmap.nmap
@@ -1177,16 +1023,200 @@
     - Security
   vulnerable: true
 - repo: npackd_stable
+  srcname: org.nmap.Zenmap
+  binname: org.nmap.Zenmap
+  visiblename: Zenmap
+  version: "7.40"
+  origversion: null
+  status: legacy
+  licenses:
+    - Nmap OpenSource
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
   srcname: org.nmap.nmap
   binname: org.nmap.nmap
   visiblename: nmap
-  version: "7.92"
+  version: "7.50"
   origversion: null
   status: legacy
   licenses:
     - GPLv2
   categories:
     - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.Zenmap
+  binname: org.nmap.Zenmap
+  visiblename: Zenmap
+  version: "7.50"
+  origversion: null
+  status: legacy
+  licenses:
+    - Nmap OpenSource
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "6.46"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "7.60"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.Zenmap
+  binname: org.nmap.Zenmap
+  visiblename: Zenmap
+  version: "7.60"
+  origversion: null
+  status: legacy
+  licenses:
+    - Nmap OpenSource
+  categories:
+    - Security
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: nmap
+  visiblename: nmap
+  version: "7.70"
+  origversion: 2:7.70-5.el8
+  status: outdated
+  summary: Network exploration tool and security scanner
+  licenses:
+    - Nmap
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "7.70"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: nmap
+  visiblename: nmap
+  version: "7.70"
+  origversion: 2:7.70-6.el8
+  status: outdated
+  summary: Network exploration tool and security scanner
+  licenses:
+    - Nmap
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: nmap
+  visiblename: nmap
+  version: "7.92"
+  origversion: 2:7.92-2.el8_10
+  status: outdated
+  summary: Network exploration tool and security scanner
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Nmap
+  categories:
+    - Applications/System
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: nmap
+  binnames:
+    - nmap-debugsource
+    - nmap-debuginfo
+    - nmap-ncat
+    - nmap
+  visiblename: nmap
+  version: "7.92"
+  origversion: 3:7.92-5.el9
+  status: outdated
+  summary: Network exploration tool and security scanner
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Nmap
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.Zenmap
+  binname: org.nmap.Zenmap
+  visiblename: Zenmap
+  version: "7.70"
+  origversion: null
+  status: legacy
+  licenses:
+    - Nmap OpenSource
+  categories:
+    - Security
+  vulnerable: true
+- repo: haikuports_master
+  srcname: net-analyzer/nmap
+  visiblename: net-analyzer/nmap
+  version: "7.94"
+  origversion: null
+  status: outdated
+  categories:
+    - net-analyzer
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "7.80"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: nmap
+  binnames:
+    - nmap
+    - nmap-ncat
+    - nmap-debuginfo
+    - nmap-debugsource
+  visiblename: nmap
+  version: "7.91"
+  origversion: 3:7.91-10.el9
+  status: legacy
+  summary: Network exploration tool and security scanner
+  licenses:
+    - Nmap
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -1317,6 +1347,13 @@
 - repo: aix_osp
   srcname: nmap
   visiblename: nmap
+  version: "3.81"
+  origversion: 3.81-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nmap
+  visiblename: nmap
   version: "5.51"
   origversion: 5.51-1
   status: legacy
@@ -1362,41 +1399,6 @@
   categories:
     - Applications/System
   vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: nmap
-  visiblename: nmap
-  version: "7.92"
-  origversion: 2:7.92-2.el8_10
-  status: outdated
-  summary: Network exploration tool and security scanner
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Nmap
-  categories:
-    - Applications/System
-  vulnerable: true
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: nmap
-  binnames:
-    - nmap-debugsource
-    - nmap-debuginfo
-    - nmap-ncat
-    - nmap
-  visiblename: nmap
-  version: "7.92"
-  origversion: 3:7.92-5.el9
-  status: outdated
-  summary: Network exploration tool and security scanner
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Nmap
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: nmap
@@ -1882,6 +1884,160 @@
   origversion: 7.97-r0
   status: outdated
   summary: network exploration tool and security/port scanner (nselibs)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: nmap
+  binname: nmap-scripts
+  visiblename: nmap-scripts
+  version: "7.97"
+  origversion: 7.97-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (scripts)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: nmap
+  binname: nmap
+  visiblename: nmap
+  version: "7.97"
+  origversion: 7.97-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: nmap
+  binname: nmap-doc
+  visiblename: nmap-doc
+  version: "7.97"
+  origversion: 7.97-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (documentation)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: nmap
+  binname: nmap-ncat
+  visiblename: nmap-ncat
+  version: "7.97"
+  origversion: 7.97-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (ncat tool)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: nmap
+  binname: nmap-nping
+  visiblename: nmap-nping
+  version: "7.97"
+  origversion: 7.97-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (nping tool)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: nmap
+  binname: nmap-nselibs
+  visiblename: nmap-nselibs
+  version: "7.97"
+  origversion: 7.97-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (nselibs)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: nmap
+  binname: nmap-scripts
+  visiblename: nmap-scripts
+  version: "7.97"
+  origversion: 7.97-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (scripts)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: nmap
+  binname: nmap
+  visiblename: nmap
+  version: "7.99"
+  origversion: 7.99-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: nmap
+  binname: nmap-doc
+  visiblename: nmap-doc
+  version: "7.99"
+  origversion: 7.99-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (documentation)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: nmap
+  binname: nmap-ncat
+  visiblename: nmap-ncat
+  version: "7.99"
+  origversion: 7.99-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (ncat tool)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: nmap
+  binname: nmap-nping
+  visiblename: nmap-nping
+  version: "7.99"
+  origversion: 7.99-r0
+  status: outdated
+  summary: network exploration tool and security/port scanner (nping tool)
   maintainers:
     - rnalrd@alpinelinux.org
   licenses:
@@ -1891,7 +2047,7 @@
   srcname: org.nmap.Zenmap
   binname: org.nmap.Zenmap
   visiblename: Zenmap
-  version: "7.92"
+  version: "7.90"
   origversion: null
   status: legacy
   licenses:
@@ -1899,160 +2055,6 @@
   categories:
     - Security
   vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: nmap
-  binname: nmap-scripts
-  visiblename: nmap-scripts
-  version: "7.97"
-  origversion: 7.97-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (scripts)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "7.97"
-  origversion: 7.97-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: nmap
-  binname: nmap-doc
-  visiblename: nmap-doc
-  version: "7.97"
-  origversion: 7.97-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (documentation)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: nmap
-  binname: nmap-ncat
-  visiblename: nmap-ncat
-  version: "7.97"
-  origversion: 7.97-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (ncat tool)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: nmap
-  binname: nmap-nping
-  visiblename: nmap-nping
-  version: "7.97"
-  origversion: 7.97-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (nping tool)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: nmap
-  binname: nmap-nselibs
-  visiblename: nmap-nselibs
-  version: "7.97"
-  origversion: 7.97-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (nselibs)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: nmap
-  binname: nmap-scripts
-  visiblename: nmap-scripts
-  version: "7.97"
-  origversion: 7.97-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (scripts)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: main
-  srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "7.99"
-  origversion: 7.99-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: main
-  srcname: nmap
-  binname: nmap-doc
-  visiblename: nmap-doc
-  version: "7.99"
-  origversion: 7.99-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (documentation)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: main
-  srcname: nmap
-  binname: nmap-ncat
-  visiblename: nmap-ncat
-  version: "7.99"
-  origversion: 7.99-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (ncat tool)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: main
-  srcname: nmap
-  binname: nmap-nping
-  visiblename: nmap-nping
-  version: "7.99"
-  origversion: 7.99-r0
-  status: outdated
-  summary: network exploration tool and security/port scanner (nping tool)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
-  vulnerable: true
 - repo: alpine_3_24
   subrepo: main
   srcname: nmap
@@ -2080,17 +2082,6 @@
     - rnalrd@alpinelinux.org
   licenses:
     - custom
-  vulnerable: true
-- repo: crux_37
-  subrepo: contrib
-  srcname: nmap
-  visiblename: nmap
-  version: "7.97"
-  origversion: null
-  status: outdated
-  summary: Utility for network exploration or security auditing
-  maintainers:
-    - tbier@posteo.de
   vulnerable: true
 - repo: alt_p11
   srcname: nmap
@@ -2109,18 +2100,6 @@
     - ALT-NPSL-0.95
   categories:
     - Monitoring
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "7.93"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Security
   vulnerable: true
 - repo: altsisyphus
   srcname: nmap
@@ -2225,19 +2204,6 @@
     - samueloph@debian.org
   categories:
     - net
-  vulnerable: true
-- repo: centos_6
-  subrepo: os
-  srcname: nmap
-  visiblename: nmap
-  version: "5.51"
-  origversion: 2:5.51-6.el6
-  status: outdated
-  summary: Network exploration tool and security scanner
-  licenses:
-    - GPLv2 and LGPLv2+ and GPLv2+ and BSD
-  categories:
-    - Applications/System
   vulnerable: true
 - repo: centos_7
   subrepo: os
@@ -2482,6 +2448,24 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: nmap
+  binnames:
+    - nmap
+    - nmap-ncat
+    - nmap-debuginfo
+    - nmap-debugsource
+  visiblename: nmap
+  version: "7.91"
+  origversion: 3:7.91-12.el9
+  status: legacy
+  summary: Network exploration tool and security scanner
+  licenses:
+    - Nmap
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: nmap
@@ -2501,6 +2485,17 @@
     - Nmap
   categories:
     - Unspecified
+  vulnerable: true
+- repo: crux_37
+  subrepo: contrib
+  srcname: nmap
+  visiblename: nmap
+  version: "7.97"
+  origversion: null
+  status: outdated
+  summary: Utility for network exploration or security auditing
+  maintainers:
+    - tbier@posteo.de
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
@@ -2717,31 +2712,41 @@
   categories:
     - Applications/System
   vulnerable: true
-- repo: eurolinux_8
+- repo: eurolinux_9
   subrepo: appstream
   srcname: nmap
+  binnames:
+    - nmap
+    - nmap-ncat
+    - nmap-debuginfo
+    - nmap-debugsource
   visiblename: nmap
-  version: "7.70"
-  origversion: 2:7.70-5.el8
+  version: "7.92"
+  origversion: 3:7.92-1.el9
   status: outdated
   summary: Network exploration tool and security scanner
   licenses:
     - Nmap
   categories:
-    - Applications/System
+    - Unspecified
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: eurolinux_9
+  subrepo: baseos
   srcname: nmap
+  binnames:
+    - nmap
+    - nmap-ncat
+    - nmap-debuginfo
+    - nmap-debugsource
   visiblename: nmap
-  version: "7.70"
-  origversion: 2:7.70-6.el8
-  status: outdated
+  version: "7.91"
+  origversion: 3:7.91-10.el9
+  status: legacy
   summary: Network exploration tool and security scanner
   licenses:
     - Nmap
   categories:
-    - Applications/System
+    - Unspecified
   vulnerable: true
 - repo: fedora_39
   subrepo: updates
@@ -2778,6 +2783,30 @@
     - Nmap
   categories:
     - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.Zenmap
+  binname: org.nmap.Zenmap
+  visiblename: Zenmap
+  version: "7.80"
+  origversion: null
+  status: legacy
+  licenses:
+    - Nmap OpenSource
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "7.93"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
   vulnerable: true
 - repo: fedora_40
   subrepo: updates
@@ -2848,22 +2877,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_43
-  subrepo: updates
-  srcname: nmap
-  binnames:
-    - nmap
-    - nmap-ncat
-  visiblename: nmap
-  version: "7.92"
-  origversion: 4:7.92-8.fc43
-  status: outdated
-  summary: Network exploration tool and security scanner
-  licenses:
-    - LicenseRef-Nmap
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_43
   subrepo: release
   srcname: nmap
   binnames:
@@ -2879,7 +2892,7 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_44
+- repo: fedora_43
   subrepo: updates
   srcname: nmap
   binnames:
@@ -2887,7 +2900,7 @@
     - nmap-ncat
   visiblename: nmap
   version: "7.92"
-  origversion: 4:7.92-11.fc44
+  origversion: 4:7.92-8.fc43
   status: outdated
   summary: Network exploration tool and security scanner
   licenses:
@@ -2904,6 +2917,22 @@
   visiblename: nmap
   version: "7.92"
   origversion: 4:7.92-8.fc44
+  status: outdated
+  summary: Network exploration tool and security scanner
+  licenses:
+    - LicenseRef-Nmap
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_44
+  subrepo: updates
+  srcname: nmap
+  binnames:
+    - nmap
+    - nmap-ncat
+  visiblename: nmap
+  version: "7.92"
+  origversion: 4:7.92-11.fc44
   status: outdated
   summary: Network exploration tool and security scanner
   licenses:
@@ -2961,24 +2990,6 @@
   categories:
     - net-analyzer
   vulnerable: true
-- repo: haikuports_master
-  srcname: net-analyzer/nmap
-  visiblename: net-analyzer/nmap
-  version: "7.94"
-  origversion: null
-  status: outdated
-  categories:
-    - net-analyzer
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: nmap
-  binname: nmap
-  visiblename: nmap
-  version: "4.76"
-  origversion: null
-  status: legacy
-  vulnerable: true
 - repo: hpux_11_31
   subrepo: hppa_32
   srcname: nmap
@@ -3015,6 +3026,18 @@
   origversion: null
   status: outdated
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "7.90"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
+  vulnerable: true
 - repo: liguros_stable
   srcname: net-analyzer/nmap
   visiblename: net-analyzer/nmap
@@ -3048,36 +3071,6 @@
     - NPSL-0.95
   categories:
     - net-analyzer
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.Zenmap
-  binname: org.nmap.Zenmap
-  visiblename: Zenmap
-  version: "7.93"
-  origversion: null
-  status: legacy
-  licenses:
-    - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: mageia_9
-  subrepo: core/release
-  srcname: nmap
-  binnames:
-    - nmap
-    - nmap-frontend
-    - nmap-debuginfo
-    - nmap-debugsource
-  visiblename: nmap
-  version: "7.94"
-  origversion: 1:7.94-2.mga9
-  status: legacy
-  summary: Network exploration tool and security scanner
-  licenses:
-    - GPLv2
-  categories:
-    - Networking/Other
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -3133,6 +3126,41 @@
   categories:
     - Networking/Other
   vulnerable: true
+- repo: mageia_9
+  subrepo: core/release
+  srcname: nmap
+  binnames:
+    - nmap
+    - nmap-frontend
+    - nmap-debuginfo
+    - nmap-debugsource
+  visiblename: nmap
+  version: "7.94"
+  origversion: 1:7.94-2.mga9
+  status: legacy
+  summary: Network exploration tool and security scanner
+  licenses:
+    - GPLv2
+  categories:
+    - Networking/Other
+  vulnerable: true
+- repo: mageia_10
+  subrepo: core/release
+  srcname: nmap
+  binnames:
+    - nmap
+    - nmap-ncat
+    - nmap-frontend
+  visiblename: nmap
+  version: "7.98"
+  origversion: 1:7.98-1.mga10
+  status: outdated
+  summary: Network exploration tool and security scanner
+  licenses:
+    - GPLv2
+  categories:
+    - Networking/Other
+  vulnerable: true
 - repo: mageia_10
   subrepo: core/updates
   srcname: nmap
@@ -3160,23 +3188,6 @@
   visiblename: nmap
   version: "7.98"
   origversion: 1:7.98-1.2.mga10
-  status: outdated
-  summary: Network exploration tool and security scanner
-  licenses:
-    - GPLv2
-  categories:
-    - Networking/Other
-  vulnerable: true
-- repo: mageia_10
-  subrepo: core/release
-  srcname: nmap
-  binnames:
-    - nmap
-    - nmap-ncat
-    - nmap-frontend
-  visiblename: nmap
-  version: "7.98"
-  origversion: 1:7.98-1.mga10
   status: outdated
   summary: Network exploration tool and security scanner
   licenses:
@@ -3253,18 +3264,6 @@
   licenses:
     - GPL-2.0-only
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "7.94"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Security
-  vulnerable: true
 - repo: nix_stable_25_11
   srcname: zenmap
   visiblename: zenmap
@@ -3290,6 +3289,30 @@
     - fpletz@fnordicwalking.de
   licenses:
     - GPL-2.0-only
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "7.91"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.Zenmap
+  binname: org.nmap.Zenmap
+  visiblename: Zenmap
+  version: "7.91"
+  origversion: null
+  status: legacy
+  licenses:
+    - Nmap OpenSource
+  categories:
+    - Security
   vulnerable: true
 - repo: nix_stable_26_05
   srcname: zenmap
@@ -3386,18 +3409,6 @@
   status: legacy
   licenses:
     - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "6.46"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
   categories:
     - Security
   vulnerable: true
@@ -3477,7 +3488,7 @@
   srcname: org.nmap.Zenmap
   binname: org.nmap.Zenmap
   visiblename: Zenmap
-  version: "7.40"
+  version: "7.12"
   origversion: null
   status: legacy
   licenses:
@@ -3489,7 +3500,19 @@
   srcname: org.nmap.nmap
   binname: org.nmap.nmap
   visiblename: nmap
-  version: "7.50"
+  version: "7.31"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.nmap
+  binname: org.nmap.nmap
+  visiblename: nmap
+  version: "7.92"
   origversion: null
   status: legacy
   licenses:
@@ -3501,7 +3524,19 @@
   srcname: org.nmap.Zenmap
   binname: org.nmap.Zenmap
   visiblename: Zenmap
-  version: "7.50"
+  version: "7.92"
+  origversion: null
+  status: legacy
+  licenses:
+    - Nmap OpenSource
+  categories:
+    - Security
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nmap.Zenmap
+  binname: org.nmap.Zenmap
+  visiblename: Zenmap
+  version: "7.93"
   origversion: null
   status: legacy
   licenses:
@@ -3513,7 +3548,7 @@
   srcname: org.nmap.nmap
   binname: org.nmap.nmap
   visiblename: nmap
-  version: "7.60"
+  version: "7.94"
   origversion: null
   status: legacy
   licenses:
@@ -3525,7 +3560,7 @@
   srcname: org.nmap.Zenmap
   binname: org.nmap.Zenmap
   visiblename: Zenmap
-  version: "7.60"
+  version: "7.94"
   origversion: null
   status: legacy
   licenses:
@@ -3537,9 +3572,9 @@
   srcname: org.nmap.nmap
   binname: org.nmap.nmap
   visiblename: nmap
-  version: "7.70"
+  version: "7.98"
   origversion: null
-  status: legacy
+  status: outdated
   licenses:
     - GPLv2
   categories:
@@ -3549,23 +3584,11 @@
   srcname: org.nmap.Zenmap
   binname: org.nmap.Zenmap
   visiblename: Zenmap
-  version: "7.70"
+  version: 6.0.1
   origversion: null
   status: legacy
   licenses:
     - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "7.80"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
   categories:
     - Security
   vulnerable: true
@@ -3573,47 +3596,11 @@
   srcname: org.nmap.Zenmap
   binname: org.nmap.Zenmap
   visiblename: Zenmap
-  version: "7.80"
+  version: "7.95"
   origversion: null
-  status: legacy
+  status: outdated
   licenses:
     - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "7.90"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.Zenmap
-  binname: org.nmap.Zenmap
-  visiblename: Zenmap
-  version: "7.90"
-  origversion: null
-  status: legacy
-  licenses:
-    - Nmap OpenSource
-  categories:
-    - Security
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nmap.nmap
-  binname: org.nmap.nmap
-  visiblename: nmap
-  version: "7.91"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
   categories:
     - Security
   vulnerable: true
@@ -3797,19 +3784,6 @@
   categories:
     - System/Administration and Configuration
   vulnerable: true
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/net/nmap
-  binname: nping-ssl
-  visiblename: nping-ssl
-  version: "7.95"
-  origversion: 7.95-r1
-  status: outdated
-  maintainers:
-    - nunojpg@gmail.com
-  categories:
-    - net
-  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: nmap
@@ -3870,19 +3844,6 @@
     - Productivity/Networking/Diagnostic
   vulnerable: true
 - repo: opensuse_leap_15_6
-  subrepo: main/non-oss
-  srcname: nmap
-  visiblename: nmap
-  version: "7.94"
-  origversion: 7.94-lp156.1.2
-  status: outdated
-  summary: Network exploration tool and security scanner
-  licenses:
-    - NonFree
-  categories:
-    - Productivity/Networking/Diagnostic
-  vulnerable: true
-- repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: nmap
   visiblename: nmap
@@ -3892,6 +3853,19 @@
   summary: Network exploration tool and security scanner
   licenses:
     - GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Diagnostic
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/non-oss
+  srcname: nmap
+  visiblename: nmap
+  version: "7.94"
+  origversion: 7.94-lp156.1.2
+  status: outdated
+  summary: Network exploration tool and security scanner
+  licenses:
+    - NonFree
   categories:
     - Productivity/Networking/Diagnostic
   vulnerable: true
@@ -4148,19 +4122,16 @@
   categories:
     - net
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/main
-  srcname: nmap
-  binnames:
-    - nmap
-    - zenmap
-    - ndiff
-  visiblename: nmap
-  version: "7.01"
-  origversion: 7.01-2ubuntu2
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/net/nmap
+  binname: nping-ssl
+  visiblename: nping-ssl
+  version: "7.95"
+  origversion: 7.95-r1
   status: outdated
   maintainers:
-    - bengen@debian.org
+    - nunojpg@gmail.com
   categories:
     - net
   vulnerable: true
@@ -4277,6 +4248,19 @@
     - GPLv2
   vulnerable: true
 - repo: pkgsrc_2026_2
+  srcname: net/zenmap
+  binname: zenmap
+  visiblename: net/zenmap
+  version: "7.99"
+  origversion: 7.99nb1
+  status: outdated
+  summary: Nmap Security Scanner GUI
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pkgsrc_2026_2
   srcname: net/ndiff
   binname: ndiff
   visiblename: net/ndiff
@@ -4301,26 +4285,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
-  vulnerable: true
-- repo: pkgsrc_2026_2
-  srcname: net/zenmap
-  binname: zenmap
-  visiblename: net/zenmap
-  version: "7.99"
-  origversion: 7.99nb1
-  status: outdated
-  summary: Nmap Security Scanner GUI
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - net
-  vulnerable: true
-- repo: ptxdist
-  srcname: nmap
-  visiblename: nmap
-  version: "7.93"
-  origversion: null
-  status: outdated
   vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
@@ -4520,6 +4484,26 @@
   maintainers:
     - volkerdi@slackware.com
   vulnerable: true
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: nmap
+  visiblename: nmap
+  version: "7.92"
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: nmap
+  visiblename: nmap
+  version: "7.92"
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
 - repo: ubi_8
   subrepo: appstream
   srcname: nmap
@@ -4548,6 +4532,22 @@
   categories:
     - net
   vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: nmap
+  binnames:
+    - nmap
+    - zenmap
+    - ndiff
+  visiblename: nmap
+  version: "7.01"
+  origversion: 7.01-2ubuntu2
+  status: outdated
+  maintainers:
+    - bengen@debian.org
+  categories:
+    - net
+  vulnerable: true
 - repo: ubuntu_18_04
   subrepo: bionic/main
   srcname: nmap
@@ -4567,25 +4567,6 @@
     - net
   vulnerable: true
 - repo: ubuntu_20_04
-  subrepo: focal-updates/universe
-  srcname: nmap
-  binnames:
-    - nmap
-    - nmap-common
-    - ndiff
-    - ncat
-  visiblename: nmap
-  version: "7.80"
-  origversion: 7.80+dfsg1-2ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - bengen@debian.org
-    - samueloph@debian.org
-  categories:
-    - universe/net
-  vulnerable: true
-- repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: nmap
   binnames:
@@ -4599,6 +4580,25 @@
   status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
+    - bengen@debian.org
+    - samueloph@debian.org
+  categories:
+    - universe/net
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal-updates/universe
+  srcname: nmap
+  binnames:
+    - nmap
+    - nmap-common
+    - ndiff
+    - ncat
+  visiblename: nmap
+  version: "7.80"
+  origversion: 7.80+dfsg1-2ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - bengen@debian.org
     - samueloph@debian.org
   categories:
