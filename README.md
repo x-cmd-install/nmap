@@ -14,7 +14,7 @@ x install nmap
 
 ## Code insight
 
-Total: **617,266** lines of code across **1020** files in the top 5 languages.
+Total: **617,184** lines of code across **1020** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,913 · **Forks**: 2,964 · **Open issues**: 2,101 · **Contributors**: 9
+- **Stars**: 13,918 · **Forks**: 2,966 · **Open issues**: 2,102 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 358 · **Closed issues**: 1739 · **Open issues**: 362 · **Commits**: 13865
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 358 · **Closed issues**: 1739 · **Open issues**: 363 · **Commits**: 13868
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 0 | 25 | 25 | 8 | 21 |
-| last60d | 2026-09-03 | 0 | 0 | 43 | 56 | 11 | 80 |
-| 90d | 2026-08-04 | 0 | 0 | 54 | 75 | 12 | 149 |
-| last180d | 2026-05-06 | 0 | 0 | 77 | 94 | 14 | 331 |
-| 360d | 2025-11-07 | 0 | 0 | 101 | 153 | 36 | 457 |
-| last720d | 2024-11-12 | 0 | 0 | 132 | 278 | 85 | 776 |
+| 30d | 2026-10-04 | 0 | 0 | 25 | 25 | 8 | 24 |
+| last60d | 2026-09-04 | 0 | 0 | 43 | 55 | 12 | 83 |
+| 90d | 2026-08-05 | 0 | 0 | 54 | 74 | 13 | 152 |
+| last180d | 2026-05-07 | 0 | 0 | 77 | 94 | 15 | 334 |
+| 360d | 2025-11-08 | 0 | 0 | 101 | 153 | 37 | 460 |
+| last720d | 2024-11-13 | 0 | 0 | 132 | 277 | 86 | 775 |
 
 ## Distribution status
 
-Reported by **335** distros on [repology.org](https://repology.org/project/nmap). **25** are ✅ on the latest upstream release, **243** are ⚠️ on an older version.
+Reported by **335** distros on [repology.org](https://repology.org/project/nmap). **29** are ✅ on the latest upstream release, **239** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:28:51Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:09:31Z._
