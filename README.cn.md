@@ -30,9 +30,9 @@ x install nmap
 
 评分最低的几项:
 
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -42,26 +42,26 @@ x install nmap
 
 ## 流行度
 
-- **Star**: 13,926 · **Fork**: 2,968 · **开放 issue**: 2,102 · **贡献者**: 9
+- **Star**: 13,933 · **Fork**: 2,969 · **开放 issue**: 2,107 · **贡献者**: 9
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 1 · **开放 PR**: 359 · **已关闭 issue**: 1739 · **开放 issue**: 363 · **提交数**: 13868
+- **发布数**: 0 · **已合并 PR**: 1 · **开放 PR**: 359 · **已关闭 issue**: 1743 · **开放 issue**: 364 · **提交数**: 13869
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 25 | 25 | 8 | 24 |
-| last60d | 2026-09-05 | 0 | 0 | 44 | 53 | 10 | 83 |
-| 90d | 2026-08-06 | 0 | 0 | 55 | 74 | 13 | 152 |
-| last180d | 2026-05-08 | 0 | 0 | 78 | 94 | 15 | 334 |
-| 360d | 2025-11-09 | 0 | 0 | 102 | 153 | 37 | 460 |
-| last720d | 2024-11-14 | 0 | 0 | 133 | 277 | 85 | 769 |
+| 30d | 2026-10-06 | 0 | 0 | 23 | 28 | 9 | 24 |
+| last60d | 2026-09-06 | 0 | 0 | 43 | 55 | 11 | 83 |
+| 90d | 2026-08-07 | 0 | 0 | 55 | 78 | 14 | 152 |
+| last180d | 2026-05-09 | 0 | 0 | 78 | 98 | 16 | 334 |
+| 360d | 2025-11-10 | 0 | 0 | 102 | 157 | 38 | 460 |
+| last720d | 2024-11-15 | 0 | 0 | 133 | 281 | 86 | 770 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/nmap) 上共有 **335** 个发行版报告此项目。**29** 个 ✅ 已是最新上游版本，**239** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/nmap) 上共有 **342** 个发行版报告此项目。**36** 个 ✅ 已是最新上游版本，**238** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -87,4 +87,4 @@ nmap 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T07:37:09Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T07:51:38Z._
