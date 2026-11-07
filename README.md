@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,939 · **Forks**: 2,972 · **Open issues**: 2,105 · **Contributors**: 9
+- **Stars**: 13,944 · **Forks**: 2,971 · **Open issues**: 2,105 · **Contributors**: 9
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 25 | 28 | 8 | 24 |
-| last60d | 2026-09-07 | 0 | 0 | 44 | 54 | 10 | 83 |
-| 90d | 2026-08-08 | 0 | 0 | 57 | 79 | 13 | 152 |
-| last180d | 2026-05-10 | 0 | 0 | 80 | 98 | 15 | 334 |
-| 360d | 2025-11-11 | 0 | 0 | 104 | 157 | 37 | 460 |
-| last720d | 2024-11-16 | 0 | 0 | 135 | 280 | 85 | 770 |
+| 30d | 2026-10-08 | 0 | 0 | 25 | 26 | 8 | 24 |
+| last60d | 2026-09-08 | 0 | 0 | 44 | 52 | 10 | 83 |
+| 90d | 2026-08-09 | 0 | 0 | 55 | 79 | 13 | 152 |
+| last180d | 2026-05-11 | 0 | 0 | 80 | 98 | 15 | 334 |
+| 360d | 2025-11-12 | 0 | 0 | 104 | 157 | 37 | 460 |
+| last720d | 2024-11-17 | 0 | 0 | 135 | 280 | 84 | 769 |
 
 ## Distribution status
 
-Reported by **342** distros on [repology.org](https://repology.org/project/nmap). **39** are ✅ on the latest upstream release, **235** are ⚠️ on an older version.
+Reported by **346** distros on [repology.org](https://repology.org/project/nmap). **42** are ✅ on the latest upstream release, **236** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:54:27Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:17:43Z._
