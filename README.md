@@ -42,30 +42,30 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,944 · **Forks**: 2,971 · **Open issues**: 2,105 · **Contributors**: 9
+- **Stars**: 13,948 · **Forks**: 2,970 · **Open issues**: 2,105 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 361 · **Closed issues**: 1742 · **Open issues**: 363 · **Commits**: 13869
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 362 · **Closed issues**: 1742 · **Open issues**: 363 · **Commits**: 13869
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 25 | 26 | 8 | 24 |
-| last60d | 2026-09-08 | 0 | 0 | 44 | 52 | 10 | 83 |
-| 90d | 2026-08-09 | 0 | 0 | 55 | 79 | 13 | 152 |
-| last180d | 2026-05-11 | 0 | 0 | 80 | 98 | 15 | 334 |
-| 360d | 2025-11-12 | 0 | 0 | 104 | 157 | 37 | 460 |
-| last720d | 2024-11-17 | 0 | 0 | 135 | 280 | 84 | 769 |
+| 30d | 2026-10-09 | 0 | 0 | 25 | 25 | 8 | 15 |
+| last60d | 2026-09-09 | 0 | 0 | 44 | 50 | 10 | 67 |
+| 90d | 2026-08-10 | 0 | 0 | 55 | 78 | 13 | 131 |
+| last180d | 2026-05-12 | 0 | 0 | 80 | 98 | 15 | 315 |
+| 360d | 2025-11-13 | 0 | 0 | 104 | 156 | 37 | 460 |
+| last720d | 2024-11-18 | 0 | 0 | 136 | 277 | 84 | 769 |
 
 ## Distribution status
 
-Reported by **346** distros on [repology.org](https://repology.org/project/nmap). **42** are ✅ on the latest upstream release, **236** are ⚠️ on an older version.
+Reported by **346** distros on [repology.org](https://repology.org/project/nmap). **44** are ✅ on the latest upstream release, **234** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `7.991` | ⚠️ outdated |
+| Debian unstable | `7.993` | ✅ latest |
 | Debian 14 | `7.99` | ⚠️ outdated |
 | Debian 13 | `7.95` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `7.98` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T07:17:43Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T07:14:43Z._
