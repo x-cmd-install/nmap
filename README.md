@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,981 · **Forks**: 2,975 · **Open issues**: 2,112 · **Contributors**: 9
+- **Stars**: 13,988 · **Forks**: 2,976 · **Open issues**: 2,112 · **Contributors**: 9
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 0 | 22 | 22 | 9 | 15 |
-| last60d | 2026-09-14 | 0 | 0 | 43 | 51 | 10 | 67 |
-| 90d | 2026-08-15 | 0 | 0 | 54 | 82 | 14 | 131 |
-| last180d | 2026-05-17 | 0 | 0 | 79 | 103 | 16 | 315 |
-| 360d | 2025-11-18 | 0 | 0 | 105 | 159 | 38 | 460 |
-| last720d | 2024-11-23 | 0 | 0 | 137 | 281 | 85 | 764 |
+| 30d | 2026-10-15 | 0 | 0 | 18 | 22 | 9 | 15 |
+| last60d | 2026-09-15 | 0 | 0 | 43 | 50 | 10 | 67 |
+| 90d | 2026-08-16 | 0 | 0 | 54 | 81 | 14 | 131 |
+| last180d | 2026-05-18 | 0 | 0 | 79 | 103 | 16 | 315 |
+| 360d | 2025-11-19 | 0 | 0 | 105 | 159 | 37 | 460 |
+| last720d | 2024-11-24 | 0 | 0 | 137 | 281 | 85 | 764 |
 
 ## Distribution status
 
-Reported by **341** distros on [repology.org](https://repology.org/project/nmap). **47** are ✅ on the latest upstream release, **224** are ⚠️ on an older version.
+Reported by **341** distros on [repology.org](https://repology.org/project/nmap). **49** are ✅ on the latest upstream release, **222** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T08:14:42Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T08:24:28Z._
