@@ -42,41 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,001 · **Forks**: 2,982 · **Open issues**: 2,112 · **Contributors**: 9
+- **Stars**: 14,009 · **Forks**: 2,983 · **Open issues**: 2,113 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 363 · **Closed issues**: 1748 · **Open issues**: 364 · **Commits**: 13874
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 362 · **Closed issues**: 1749 · **Open issues**: 364 · **Commits**: 13875
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 18 | 21 | 8 | 8 |
-| last60d | 2026-09-17 | 0 | 0 | 42 | 49 | 10 | 42 |
-| 90d | 2026-08-18 | 0 | 0 | 54 | 81 | 14 | 109 |
-| last180d | 2026-05-20 | 0 | 0 | 79 | 103 | 16 | 315 |
-| 360d | 2025-11-21 | 0 | 0 | 104 | 159 | 36 | 460 |
-| last720d | 2024-11-26 | 0 | 0 | 137 | 281 | 84 | 758 |
-
-## Distribution status
-
-Reported by **342** distros on [repology.org](https://repology.org/project/nmap). **50** are ✅ on the latest upstream release, **221** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `7.993` | ✅ latest |
-| Debian 14 | `7.993` | ✅ latest |
-| Debian 13 | `7.95` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `7.98` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `7.94+git20230807.3be01efb1` | ⚠️ outdated |
-| Arch | `7.993` | ✅ latest |
-| Homebrew | `7.993` | ✅ latest |
-| Fedora rawhide | `7.92` | ⚠️ outdated |
-| Nix unstable | `7.991` | ⚠️ outdated |
-| Void | `7.99` | ⚠️ outdated |
-| Alpine edge | `7.992` | ⚠️ outdated |
-| openSUSE Tumbleweed | `7.98` | ⚠️ outdated |
+| 30d | 2026-10-18 | 0 | 0 | 18 | 22 | 8 | 8 |
+| last60d | 2026-09-18 | 0 | 0 | 41 | 50 | 10 | 42 |
+| 90d | 2026-08-19 | 0 | 0 | 53 | 82 | 14 | 109 |
+| last180d | 2026-05-21 | 0 | 0 | 79 | 102 | 16 | 315 |
+| 360d | 2025-11-22 | 0 | 0 | 103 | 160 | 36 | 460 |
+| last720d | 2024-11-27 | 0 | 0 | 136 | 282 | 84 | 758 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:37:36Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:24:33Z._
