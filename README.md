@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,031 · **Forks**: 2,986 · **Open issues**: 2,115 · **Contributors**: 9
+- **Stars**: 14,043 · **Forks**: 2,989 · **Open issues**: 2,118 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 361 · **Closed issues**: 1753 · **Open issues**: 362 · **Commits**: 13879
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 361 · **Closed issues**: 1756 · **Open issues**: 362 · **Commits**: 13881
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 18 | 21 | 7 | 8 |
-| last60d | 2026-09-21 | 0 | 0 | 34 | 51 | 9 | 42 |
-| 90d | 2026-08-22 | 0 | 0 | 50 | 84 | 12 | 109 |
-| last180d | 2026-05-24 | 0 | 0 | 77 | 106 | 14 | 315 |
-| 360d | 2025-11-25 | 0 | 0 | 102 | 163 | 34 | 460 |
-| last720d | 2024-11-30 | 0 | 0 | 135 | 283 | 82 | 762 |
+| 30d | 2026-10-22 | 0 | 0 | 18 | 23 | 6 | 8 |
+| last60d | 2026-09-22 | 0 | 0 | 33 | 53 | 9 | 42 |
+| 90d | 2026-08-23 | 0 | 0 | 50 | 85 | 12 | 109 |
+| last180d | 2026-05-25 | 0 | 0 | 76 | 109 | 14 | 315 |
+| 360d | 2025-11-26 | 0 | 0 | 102 | 165 | 34 | 460 |
+| last720d | 2024-12-01 | 0 | 0 | 134 | 286 | 82 | 764 |
 
 ## Distribution status
 
-Reported by **339** distros on [repology.org](https://repology.org/project/nmap). **50** are ✅ on the latest upstream release, **219** are ⚠️ on an older version.
+Reported by **338** distros on [repology.org](https://repology.org/project/nmap). **50** are ✅ on the latest upstream release, **218** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:32:37Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:58:10Z._
