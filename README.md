@@ -14,14 +14,14 @@ x install nmap
 
 ## Code insight
 
-Total: **617,206** lines of code across **1020** files in the top 5 languages.
+Total: **617,209** lines of code across **1020** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 175,270 | 53,314 | 32,889 | 326 |
 | Lua | 89,479 | 28,283 | 13,485 | 159 |
 | Xml | 68,733 | 268 | 5,115 | 74 |
-| Cpp | 60,700 | 15,824 | 10,844 | 110 |
+| Cpp | 60,703 | 15,824 | 10,844 | 110 |
 | CHeader | 46,736 | 25,507 | 8,772 | 351 |
 
 ## OpenSSF Scorecard
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,076 · **Forks**: 2,994 · **Open issues**: 2,118 · **Contributors**: 9
+- **Stars**: 14,085 · **Forks**: 2,995 · **Open issues**: 2,119 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 360 · **Closed issues**: 1758 · **Open issues**: 360 · **Commits**: 13887
+- **Releases**: 0 · **Merged PRs**: 1 · **Open PRs**: 359 · **Closed issues**: 1760 · **Open issues**: 359 · **Commits**: 13888
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 15 | 20 | 1 | 6 |
-| last60d | 2026-09-25 | 0 | 0 | 33 | 50 | 7 | 36 |
-| 90d | 2026-08-26 | 0 | 0 | 46 | 82 | 10 | 101 |
-| last180d | 2026-05-28 | 0 | 0 | 75 | 111 | 12 | 300 |
-| 360d | 2025-11-29 | 0 | 0 | 101 | 165 | 31 | 463 |
-| last720d | 2024-12-04 | 0 | 0 | 132 | 282 | 79 | 765 |
+| 30d | 2026-10-26 | 0 | 0 | 14 | 22 | 0 | 7 |
+| last60d | 2026-09-26 | 0 | 0 | 32 | 51 | 6 | 37 |
+| 90d | 2026-08-27 | 0 | 0 | 45 | 84 | 9 | 102 |
+| last180d | 2026-05-29 | 0 | 0 | 74 | 113 | 11 | 301 |
+| 360d | 2025-11-30 | 0 | 0 | 100 | 167 | 30 | 464 |
+| last720d | 2024-12-05 | 0 | 0 | 130 | 284 | 78 | 761 |
 
 ## Distribution status
 
-Reported by **338** distros on [repology.org](https://repology.org/project/nmap). **54** are ✅ on the latest upstream release, **214** are ⚠️ on an older version.
+Reported by **337** distros on [repology.org](https://repology.org/project/nmap). **54** are ✅ on the latest upstream release, **213** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for nmap lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:38:54Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:21:36Z._
