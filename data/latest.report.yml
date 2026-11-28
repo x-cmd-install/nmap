@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T10:11:09Z
+  collectedAt: 2026-11-28T08:35:41Z
 timeline:
   created: 2012-03-09
   lastCommit: 2026-11-24
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 14105
-  watcher: 463
-  fork: 3001
+  star: 14111
+  watcher: 464
+  fork: 3005
   release: 0
   contributor: 9
-  pullRequest: 1137
-  issue: 2120
+  pullRequest: 1138
+  issue: 2122
 language:
   C: 11077756
   Lua: 8372593
@@ -54,63 +54,63 @@ language:
 totalBytes: 30942449
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
-    openPR: 16
-    closedIssue: 22
+    openPR: 15
+    closedIssue: 23
     openIssue: 1
     commit: 7
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
-    openPR: 34
-    closedIssue: 51
+    openPR: 35
+    closedIssue: 52
     openIssue: 7
     commit: 37
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
-    openPR: 48
-    closedIssue: 81
+    openPR: 49
+    closedIssue: 83
     openIssue: 10
     commit: 102
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
     openPR: 76
-    closedIssue: 112
+    closedIssue: 114
     openIssue: 12
     commit: 301
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 0
-    openPR: 103
-    closedIssue: 167
+    openPR: 104
+    closedIssue: 169
     openIssue: 30
     commit: 464
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 0
-    openPR: 133
-    closedIssue: 284
+    openPR: 134
+    closedIssue: 286
     openIssue: 79
     commit: 755
 total:
   release: 0
   mergedPR: 1
-  openPR: 362
-  closedIssue: 1760
+  openPR: 363
+  closedIssue: 1762
   openIssue: 360
   commit: 13888
 ---
 path: /home/runner/.x-repo/github.com/nmap/nmap
-collectedAt: 2026-11-27T10:11:37Z
+collectedAt: 2026-11-28T08:36:07Z
 loc:
   C:
     code: 175270
